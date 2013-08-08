@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        >
+        <Button 
+	        android:id="@+id/gallery_btn"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="ギャラリー"
+	        android:layout_marginRight="30dp"
+	        />
+        <Button
+            android:id="@+id/face_detect_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="顔検出"
+            />            
+    </LinearLayout>
+    
+    <ImageView 
+        android:id="@+id/face_image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"                
+        />
+</LinearLayout>
